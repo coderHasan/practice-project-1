@@ -10,9 +10,15 @@ body {
     font-family: "Poppins", sans-serif;
     font-style: normal;
   }
+  header{
+    background-color: #2D25A0;
+}
+.hide{
+    display: none;
+}
 .container{
-    width: 1200px;
-    margin: 0  auto;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 0px 20px;
 }
 li{
@@ -30,15 +36,15 @@ li{
 }
 
 /* Header */
-#header{
-    background-color: #2D25A0;
-}
+
 .header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.menu{
+    display: none;
+}
 .header-wrapper ul {
     display: flex;
     color: white;

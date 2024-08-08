@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }       
+    .header-wrapper ul {
+        display: none;
+    }
+    
+    .menu {
+        display: block;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    .header-wrapper {
+        display: flex;
+    }
+    .header-wrapper, div {
+        padding: 5px 0px;
+    }
+}
