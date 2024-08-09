@@ -1,8 +1,10 @@
 
 @media screen and (max-width: 576px) {
+
     .container{
         width: 100%;
     }       
+    /* Heaer */
     .header-wrapper ul {
         display: none;
     }
@@ -18,5 +20,36 @@
     }
     .header-wrapper, div {
         padding: 5px 0px;
+    }
+
+    /* Banner */
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    
+    .banner-content-box img {
+        width: 100%;
+    }
+    
+    .banner-content-box h1 {
+        color: white;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .banner {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 30px;
+    }
+    
+    .banner-content-box {
+        margin-bottom: 30px;
+    }
+    
+    .banner-content-box h1 {
+        font-size: 2rem;
     }
 }
