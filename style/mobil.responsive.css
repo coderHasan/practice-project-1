@@ -52,4 +52,9 @@
     .banner-content-box h1 {
         font-size: 2rem;
     }
+
+    /* Player box */
+    .player-content-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
