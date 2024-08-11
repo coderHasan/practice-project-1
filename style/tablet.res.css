@@ -7,4 +7,9 @@
     .player-content-wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* hightlight */
+    .h-single-box1 {
+        width: 40%;
+    }
 }

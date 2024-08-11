@@ -57,4 +57,41 @@
     .player-content-wrapper {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* Highlight */
+    .h-single-box1 {
+        width: 500px;
+        margin-left: 50px;
+    }
+    
+    .h-single-box1 h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .h-single-box1 p {
+        margin-bottom: 20px;
+        font-size: .9rem;
+        color: #6C6C6C;
+    }
+    
+    .higlight-box {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .h-single-box1 {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .h-single-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .h-single-box1 h1 {
+        font-size: 1.5rem;
+    }
 }

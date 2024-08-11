@@ -141,3 +141,34 @@ section{
     color: #6C6C6C;
     margin-bottom: 10px;
 }
+
+/* Highlight */
+.higlight-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h-single-box {
+    width: 50%;
+}
+
+.h-single-box img {
+    width: 100%;
+}
+.h-single-box1 {
+    width: 500px;
+    margin-left: 50px;
+}
+
+.h-single-box1 h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.h-single-box1 p {
+    margin-bottom: 20px;
+    font-size: .9rem;
+    color: #6C6C6C;
+}
