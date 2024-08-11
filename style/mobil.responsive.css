@@ -94,4 +94,9 @@
     .h-single-box1 h1 {
         font-size: 1.5rem;
     }
+
+    /* Footer */
+    .footer-wrap {
+        width: 100%;
+    }
 }

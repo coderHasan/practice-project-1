@@ -172,3 +172,34 @@ section{
     font-size: .9rem;
     color: #6C6C6C;
 }
+
+/* Footer */
+.footer-wrap {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo {
+    padding: 0;
+}
+
+.cocial {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cocial a {
+    color: #9f9f9f;
+}
+
+.footer-wrap p {
+    color: #7b7b7b;
+    font-size: .9rem;
+    text-align: center;
+    font-weight: 500;
+}
